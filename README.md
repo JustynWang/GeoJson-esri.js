@@ -1,2 +1,2 @@
 # esri.js
-Using https://developers.arcgis.com/javascript/latest/tutorials/display-a-map/ as a springboard.
+With help from https://developers.arcgis.com/javascript/latest/sample-code/layers-geojson and https://developers.arcgis.com/javascript/latest/sample-code/sandbox/?sample=layers-geojson.
