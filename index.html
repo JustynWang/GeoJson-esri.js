@@ -17,8 +17,25 @@
         <script
           type="module"
           src="https://js.arcgis.com/map-components/4.31/arcgis-map-components.esm.js"
-        ></script>
+        >
+      </script>
 
+        <script
+         require(["esri/Map", "esri/layers/GeoJSONLayer", "esri/views/MapView"], (
+      Map,
+      GeoJSONLayer,
+      MapView
+         ) => {
+
+          const url = "https://arcg.is/L5SDL";
+
+
+         }
+         
+
+        </script>
+
+    
   </head>
 
   <body>
@@ -40,7 +57,9 @@
     var esriConfig = {
       apiKey: "AAPTxy8BH1VEsoebNVZXo8HurNAUgv3aeRUmzJ4ckMevLQLfVJhdc-z1-a5rmBvbZM6HiAtWhTkHR1uPqL3lwJdP49LWHB6rjySi-OGZeNP1ea6oiztHSf22dFyO6r4o94L1an9zLTOBsN3vlqSz7k8MyUO9e1udJ3zNViSQ518xOFVwCnGBfyh40rSb4E2X3zsumGVzsUowRjXGPUi8Odwr1Y9iVZinjPQa-7TSBIuR8E4.AT1_EtHHMprs"
     };
-  
+    
+    
+
   </script>
 
 <body>
@@ -55,6 +74,8 @@
 
     </arcgis-map>
 
+  
+ 
   </body>
   
   <div id="viewDiv"></div>
